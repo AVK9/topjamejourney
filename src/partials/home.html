@@ -5,7 +5,10 @@
     <div class="home_content">
       <h1 class="home_title">Merge Master</h1>
       <h3 class="home_subtitle">Home Design</h3>
-      <button class="home_button">
+      <h4 class="home_sub_subtitle">
+        Unleash your creativity and build your dream home!
+      </h4>
+      <button class="home_button" id="googlePlay">
         <img
           src="./img/googleplay.png"
           alt="googlePlay"
@@ -13,5 +16,15 @@
         />
       </button>
     </div>
+    <script>
+      document
+        .getElementById('googlePlay')
+        .addEventListener('click', function () {
+          window.open(
+            'https://play.google.com/store/apps/details?id=com.zymobile.merge.master.home.design.gp',
+            '_blank'
+          );
+        });
+    </script>
   </div>
 </section>

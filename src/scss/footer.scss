@@ -16,6 +16,7 @@
     line-height: 150%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
+    transition: all 0.3s ease;
 }
 
 .footer-all-recerved {
@@ -45,4 +46,9 @@
 
 .footer-list li:last-child::after {
     display: none;
+}
+
+.footer-item:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #0d1151;
 }

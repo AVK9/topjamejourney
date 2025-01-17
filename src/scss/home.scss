@@ -1,0 +1,48 @@
+.home-container {
+  width: 100%;
+  display: flex;
+
+  background-image: url(../img/home-page-mob.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  @include media(desktop) {
+    background-image: url(../img/home-page-desk.jpg);
+    height: 720px;
+  }
+}
+.home_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  @include media(desktop) {
+    margin-left: 517px;
+    margin-right: 231px;
+    margin-top: 104px;
+  }
+}
+.home_title {
+  @include font(30, 40);
+  font-family: 'Poetsen One', sans-serif;
+  color: $_header_color;
+  text-align: center;
+  font-weight: 400;
+  font-size: 68px;
+}
+.googleplay_img {
+  width: 200px;
+  height: 52px;
+}
+.home_subtitle {
+  @include font(60, 56);
+  font-family: 'Dongle', sans-serif;
+  color: $_header_color;
+  text-align: center;
+  font-weight: 400;
+}
+.home_button {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

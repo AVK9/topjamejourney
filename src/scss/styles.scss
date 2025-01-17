@@ -1,10 +1,12 @@
 @import './header.scss';
+@import './btn-google-play.scss';
 @import './home.scss';
 @import './about.scss';
 @import './advantages.scss';
-//@import './gallery.scss';
-//@import './reviews.scss';
-//@import './footer.scss';
+@import './gallery.scss';
+@import './reviews.scss';
+@import './footer.scss';
+
 
 :root {
   font-family: Inter, sans-serif;
@@ -21,6 +23,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 .container {
   width: 360px;
   margin: 0 auto;
@@ -29,6 +32,7 @@
     width: 1200px;
   }
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;

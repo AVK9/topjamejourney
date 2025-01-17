@@ -25,11 +25,11 @@
 }
 
 .container {
-  width: 360px;
+  width: $mobile;
   margin: 0 auto;
 
   @include media(desktop) {
-    width: 1200px;
+    width: $desktop;
   }
 }
 

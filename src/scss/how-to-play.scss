@@ -1,0 +1,44 @@
+.box-girl-cat {
+    width: 100%;
+    height: 469px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-image: url(./../img/bgr-how-to-play.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.box-title {
+    padding-top: 60px;
+}
+
+.blok-title-cat {
+    width: 80px;
+    height: 37px;
+    background-image: url(./../img/blok-title-cat-m.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    bottom: 0;
+    right: 74px;
+
+}
+
+.blok-title-girl {
+    width: 99px;
+    height: 198px;
+    background-image: url(./../img/blok-title-girl-m.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    bottom: 0;
+    left: 64px;
+
+}

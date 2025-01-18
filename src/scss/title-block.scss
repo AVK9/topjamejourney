@@ -6,10 +6,12 @@
   align-items: center;
   justify-content: space-between;
 
+
   @include media(desktop) {
     width: 452px;
     height: 202px;
   }
+
 }
 
 .title-block-head {
@@ -48,9 +50,11 @@
   margin-top: 6px;
   margin-bottom: 14px;
 
+
   @include media(desktop) {
     @include font(28, 26);
     margin-top: 6px;
     margin-bottom: 20px;
   }
 }
+

@@ -12,6 +12,7 @@
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
+  z-index: 1000;
 
   @include media(desktop) {
     height: 60px;

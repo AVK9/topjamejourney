@@ -64,6 +64,11 @@
     left: 620px;
     transform: rotate(2deg);
   }
+  &:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+    z-index: 5;
+  }
 }
 .about_page_small_img_3 {
   position: absolute;
@@ -77,6 +82,10 @@
     left: 840px;
     transform: rotate(3deg);
   }
+  &:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+  }
 }
 .about_page_small_img_1 {
   position: absolute;
@@ -88,5 +97,9 @@
     top: 510px;
     left: 460px;
     transform: rotate(-2deg);
+  }
+  &:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
   }
 }

@@ -1,3 +1,89 @@
+.part-how-to-play {
+    width: 100%;
+}
+
+.main-head-how-to-play {
+    font-family: var(--second-family);
+    font-weight: 400;
+    @include font(42, 36.12);
+    color: var(--black);
+
+    margin-top: 60px;
+    margin-left: 16px;
+
+    @include media(desktop) {
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+}
+
+.box-how-to-play {
+    padding: 0 16px;
+    margin-top: 40px;
+
+    @include media(desktop) {
+        padding: 0 40px;
+    }
+}
+
+.list-how-to-play {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include media(desktop) {
+        flex-direction: row;
+    }
+}
+
+.item-rev-how-to-play,
+.item-how-to-play {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    @include media(desktop) {
+        gap: 40px;
+    }
+}
+
+.item-rev-how-to-play {
+    @include media(desktop) {
+        gap: 40px;
+        flex-direction: column-reverse
+    }
+}
+
+.desc-box-how-to-play {
+    padding: 21.5px 16px;
+
+    @include media(desktop) {
+        padding: 31px 16px;
+    }
+}
+
+.desc-img-how-to-play {
+    width: 288px;
+    height: 216px;
+    // box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.desc-head-how-to-play {
+    font-family: var(--font-family);
+    font-weight: 600;
+    @include font(18, 23.94);
+    color: var(--black);
+}
+
+.desc-text-how-to-play {
+    font-family: var(--font-family);
+    font-weight: 400;
+    @include font(16, 16);
+    color: var(--black);
+
+    margin-top: 16px;
+}
+
 .box-girl-cat {
     width: 100%;
     height: 469px;

@@ -1,0 +1,58 @@
+.back-to-top {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    z-index: 100;
+    position: fixed;
+    right: 30px;
+    bottom: 155px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    animation: bounce 3s infinite;
+    cursor: pointer;
+
+    @include media(desktop) {
+        width: 56px;
+        height: 56px;
+        right: 175px;
+        bottom: 180px;
+    }
+}
+
+.back-to-top-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    @include media(desktop) {
+        top: 20px;
+        left: 18px;
+    }
+}
+
+
+
+.back-to-top:hover {
+    box-shadow: 0 0 0 5px rgba(116, 116, 116, 0.3);
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-6px);
+    }
+
+    60% {
+        transform: translateY(-4px);
+    }
+}

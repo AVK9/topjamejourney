@@ -2,14 +2,211 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAkaSURBVHgBZVdbb1xXFf7WOWfunhl7PLU9dpybY8dJ3LRp0qZJK6AtkUBAJRASb8AblRBP/QlIICEhAQ+8wANCFUJKHwIUVUWFtiEEp2li0sZO0jgZX8Z2xp77/Vw361xnkiaeOaN91tlr7W9961vrkNX4mSUEiAjCvuKJf+R+Cf5PzheRYyd59sK3cwx5RXi/3DXnEQzs7ay5lrZPKKREPDt3D3L3DJz5xoDnjQ0kuOaBg4HA3IMItnE8ufdcX050bgxB3FCEEnaiIgSnt+0Fb0d9APBFYByHoh+DDwJ/G2+noZxpCzqgk4eFf38QMOeGwlgGMDknd8KmPoTu08Eu/jGdQ9tLJPHzwvnZKAPXf71CQzejGLoYopEXRzFxYRJ0ouZFBz+hwbkUoXbJQdxJnutL+M58Y/cGOrqOptrB5a3beCF3DFeLqzgzdhSz6bRo13X65Ru3EMpfx9xkEpWHccxvH8fE98KApvtE8sIg4eZEkAKtF+QYAwTxw+3oKt7Pr+P+7hbWsYE3F14X/9y8RyeTh7FcsrCQlKgmV7GzomDp5gpizSKOHJ3CcFLG5s46GpUMUkPJx0gpENCJEeh1BrLkIWuveNmK80cyBe60elAh4zcPL1E2+RQ+2tvC6dEjaLa3cFubQGdlCwltDzMHc5g4eQyrRgRi498gXWMEukH2fEcuV5kDnALHkQ+OEE+wTYJ4ZSJNq939WC2PolyuIpEdRakzBp0MFEUazyYJx54JiVQ8TPnYfuSefwkZJY7pE6NIjtWE6HXJoa1XPbZnl2r8p9/7kehzWAB9pvZTwd/FTgef1hUsNpugGG+MUYTlCFIJA8PhCl7kAyvFDlb+2qbxyQPInRpBbGrdeXaA/T7OPs24CvSuGHAU1NQTOGBclhA1d3EgOowtO1jJXpVQr3fRkYegZ6uwUho9/f0UitfaiM+MQzS7Qc4D3z4bvJgUi+EJpIowWH4eDEQdy0BclsXLqTiN1NvQ2fEWc2IikkaOatgX0cVba0SnRyJY2vkhzo03IRVDGB4+RsONPzx2EFc++hEoULkK3OonlySuvvTFQeCDtoWWNEZfi9ZxImaIeatKNdJEKaTTLOq43tBpwpzGo9IkrKqKnWQXU6kpfLj4MS6cPIxEe1l4wJMvmfCSw2XY8VLgBia5YPnQOXZDvSYuW3Es1ktYkAS9FleQlCOUZ01Y7zZwSyiYS5q4eTeLbPczLK8WcfhgBu+9+y5OzX8Xce1Gn2Uey4Wr1OSkoE8OB/FA8eyVqmGirJlQO9e5mlL4+67ARa2D7fUm4okEhhMavvVcDjvRNB7cquLgGT5xVILBexyelrH2KIx9QzGStLJT3H4pekUhFNK6g5VHfQ4KrHZ6+N0jDeWajs2mjqGxLkJDCn4yHMfodITvRTAb6SKjyfhfYwln21m8fXEFQ+kU0modP/7Bqyje+xeoueWRqq8vwuUj64AjEkFe0G/LhBmF8Ivj00AkDGGoWH7Uxm9XK/g9N7CfZiRcOBzGTJLLzeyh1q7gdiyBVuI4mqyuj6wMCnc+woy1xM8OsBCespMvRI5IUKBAwuuWlJ2CNHuOLXZhVT6BKJdwfDyJn09l8FYlhc+315BOCiwyQplYCN+MKdieJHS3WSfMJv6rpnEIC5hRrw7gS35qg8YXKKEfhNOa900RzZ3kjW7CKtyA1TBgbbOktspIyGt4I5dC6ex5fPj+bbxzLwWT7z+caiAyksP+uRl06tfQ2y1gY2EO9v7BEOKdUPT7s1AshsttEu70IcWiRAeeZcMIrL0VoMeLJtsbbGRfdbbaaSArXcELX34JhUwJh9pFvB6rYbldwB0tgqjFAqVuotg9BZM7KPGDfmoDjXH9kWQYFnTdIoPZbpqmEFNHIEJnYKpRbiIKO1XYuQyhS7Dsj8o7tHmDWgcH5SLmcyMYDRN03mc2kheKqWGBDb4ev41apYkGMsI0LWH7sK+GbsH26ftTDFMIX//sCEOZHCxG22jxUJU8Cin6EEiHIKdZeLmti64OwWoouP7Rq2Fm5jzKWw+Zo/YeFrLhFjQ1jq+OL+Hq2hryR0/SfO8fflWTN/L4EyQpuiHIp58k8QmtGszmMoy2AcM0MHTsVSA0AWK9lygEyDZnLUbnc1j5u5gcnsaf669Qe8jEafMd7O51oEfHGJW6iHSKdBWvYcZ8D55bT4ZF0HcUzfT1zs6xhWirwOtNmC1W6UqBYW8hcWiBg2CbcBySMs7U3ce8OAR53zOIMjfOPv0NJLgctWuXMJ2so4IsND7YnL6Ie7Xn0KIURcyGW/39CdnpQZwCT/acqQzU2dpDOMMBdGXorS56ZUakXUJs3zRC8adgyjV+9D4jkgBF9jvjYCJ+nNNTh8kKOS5VIIaOcI4FzmXz2GMZb4zOY7i66ILg9CMIy+1L4BRY3pRpp1AIPd+mBN8NcW2TrMBglWsVWvxEHuH0HmOmOOZSKAI5nkdBPY+EsYGw1YbGY9rz6n0k9h+EvgnkohWujv8gHWGim8Ibw/xsuFdFNx+bF4iDQPVBA0+FZxAaMyGNpGCoJej1DpOTp1sRgmXqkI0ENkfPo77FSnj/T9hUtxG1SdiLYCwiUGOmM1dEcmOJrLFvQ6NPQUbXE2HyZJ95p3PebRTsq2a4H2EpkLURVDZ2oX1WYphm+XdD7N1toXMljVIhhuplGaHEy8Clv0At5DH+twLCf2TWr6mctjEmsIBN8BbxhPxxBuHcV4S9N68J3fNj20hMFgcevmEvOIGohoFdax1dgws+HoUqmlA1g1QWlXLyAdTWNtrRXUQ++RVixg1US1Uerrkf9FS0Ui3Uj3wgHEe8X0/Ji9XEdfQmvkSmHHd82cR3fLFPuvKmbAl67D1qoHEwSynsvHaYpioGq9hRTU6ruWLRtpbC2M0OdrsGpO/EMDnZ8xuq8PuuNfA2hIFpR7EjQtCAPTr60sSE0En1XsK88XKwpdp6Og9krSYsFtBxmQMMdxlmz7EYsHY3Jq8SmS3uCf0qCCLAoCOHKNag5z4+dulKktfGeQt+xbTsu2a/7fqHdhhPYnDoDjqwwhJNwZwSzMTB1NBXqUHnnomwrP7c7s5bj933p8DBsqOB1NiX/wNF4D3HEjHQxgAAAABJRU5ErkJggg==" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terms & Conditions</title>
+    
+    <link rel="stylesheet" href="/topjamejourney/assets/styles-24e7faff.css">
   </head>
   <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Terms & Conditions</h1>
-    </section>
+    <main>
+      <div class="wrapper">
+        <section>
+          <div class="go-to-home">
+          <div class="go-to-home-box container">
+            <a href="./index.html">
+              <div class="go-to-home-link">
+                <img
+                  src="/topjamejourney/assets/home-back-8de94121.png"
+                  alt="Back Home"
+                  width="40"
+                  height="40"
+                />
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADeSURBVHgBtZSBDYJQDEQPXQA3+G7gCIyAGziCG8AGygZsgBsQJ4ANdAPcANuEnygUI3r/JZfwgdyF0hYIzPrL9xJRJtqIWpBJRf2LUhBxom4UcAYJJ7qNzFU7EIhnzHOQqEKaZ4Z5BRKWuZYqBoF0xtyBgMO0HTsQzKPBpMbUrMV/U/sQFRjM+0Cqo+EiGLrstiBNp0GhX6AtWBshV1GJ39F/cPEHB3s1BN+ceqaWL0HAYfMcjZAGpHXhyRFw4XlKI+QEIlqSxgg5YAGrD8+0j/ei++g+fSgd3tt3UcATsNN6JD8Z18MAAAAASUVORK5CYII="
+                  alt="Arrow Back Home"
+                  width="10"
+                  height="10"
+                />
+                <span>Back to home</span>
+              </div>
+              </div>
+            </a>
+          </div>
+          <div class="box-info box-info-bgr container">
+  <h1 class="head-inho">Terms & Conditions</h1>
+
+  <div class="text-page-info">
+    <p class="text-info-bot">
+      These terms and conditions applies to the Merge Master - Home Design app
+      (hereby referred to as "Application") for mobile devices that was created
+      by (hereby referred to as "Service Provider") as a Free service.
+    </p>
+    <p class="text-info-bot">
+      Upon downloading or utilizing the Application, you are automatically
+      agreeing to the following terms. It is strongly advised that you
+      thoroughly read and understand these terms prior to using the Application.
+      Unauthorized copying, modification of the Application, any part of the
+      Application, or our trademarks is strictly prohibited. Any attempts to
+      extract the source code of the Application, translate the Application into
+      other languages, or create derivative versions are not permitted. All
+      trademarks, copyrights, database rights, and other intellectual property
+      rights related to the Application remain the property of the Service
+      Provider.
+    </p>
+    <p class="text-info-bot">
+      The Service Provider is dedicated to ensuring that the Application is as
+      beneficial and efficient as possible. As such, they reserve the right to
+      modify the Application or charge for their services at any time and for
+      any reason. The Service Provider assures you that any charges for the
+      Application or its services will be clearly communicated to you.
+    </p>
+    <p class="text-info-top">
+      The Application stores and processes personal data that you have provided
+      to the Service Provider in order to provide the Service. It is your
+      responsibility to maintain the security of your phone and access to the
+      Application. The Service Provider strongly advise against jailbreaking or
+      rooting your phone, which involves removing software restrictions and
+      limitations imposed by the official operating system of your device. Such
+      actions could expose your phone to malware, viruses, malicious programs,
+      compromise your phone's security features, and may result in the
+      Application not functioning correctly or at all. Please note that the
+      Application utilizes third-party services that have their own Terms and
+      Conditions. Below are the links to the Terms and Conditions of the
+      third-party service providers used by the Application:
+    </p>
+    <ul class="list-info">
+      <li class="list-item-info">
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+      </li>
+      <li class="list-item-info">
+        <a href="https://firebase.google.com/support/privacy"
+          >Google Analytics for Firebase</a
+        >
+      </li>
+      <li class="list-item-info">
+        <a href="https://www.facebook.com/about/privacy/update/printable"
+          >Facebook</a
+        >
+      </li>
+    </ul>
+    <p class="text-info-top">
+      Please be aware that the Service Provider does not assume responsibility
+      for certain aspects. Some functions of the Application require an active
+      internet connection, which can be Wi-Fi or provided by your mobile network
+      provider. The Service Provider cannot be held responsible if the
+      Application does not function at full capacity due to lack of access to
+      Wi-Fi or if you have exhausted your data allowance.
+    </p>
+    <p class="text-info-top">
+      If you are using the application outside of a Wi-Fi area, please be aware
+      that your mobile network provider's agreement terms still apply.
+      Consequently, you may incur charges from your mobile provider for data
+      usage during the connection to the application, or other third-party
+      charges. By using the application, you accept responsibility for any such
+      charges, including roaming data charges if you use the application outside
+      of your home territory (i.e., region or country) without disabling data
+      roaming. If you are not the bill payer for the device on which you are
+      using the application, they assume that you have obtained permission from
+      the bill payer.
+    </p>
+    <p class="text-info-top">
+      Similarly, the Service Provider cannot always assume responsibility for
+      your usage of the application. For instance, it is your responsibility to
+      ensure that your device remains charged. If your device runs out of
+      battery and you are unable to access the Service, the Service Provider
+      cannot be held responsible.
+    </p>
+    <p class="text-info-top">
+      In terms of the Service Provider's responsibility for your use of the
+      application, it is important to note that while they strive to ensure that
+      it is updated and accurate at all times, they do rely on third parties to
+      provide information to them so that they can make it available to you. The
+      Service Provider accepts no liability for any loss, direct or indirect,
+      that you experience as a result of relying entirely on this functionality
+      of the application.
+    </p>
+    <p class="text-info-top">
+      The Service Provider may wish to update the application at some point. The
+      application is currently available as per the requirements for the
+      operating system (and for any additional systems they decide to extend the
+      availability of the application to) may change, and you will need to
+      download the updates if you want to continue using the application. The
+      Service Provider does not guarantee that it will always update the
+      application so that it is relevant to you and/or compatible with the
+      particular operating system version installed on your device. However, you
+      agree to always accept updates to the application when offered to you. The
+      Service Provider may also wish to cease providing the application and may
+      terminate its use at any time without providing termination notice to you.
+      Unless they inform you otherwise, upon any termination, (a) the rights and
+      licenses granted to you in these terms will end; (b) you must cease using
+      the application, and (if necessary) delete it from your device.
+    </p>
+    <h2 class="head-second-info">Changes to These Terms and Conditions</h2>
+    <p class="text-info-bot">
+      The Service Provider may periodically update their Terms and Conditions.
+      Therefore, you are advised to review this page regularly for any changes.
+      The Service Provider will notify you of any changes by posting the new
+      Terms and Conditions on this page.
+    </p>
+    <p class="text-info-top">
+      These terms and conditions are effective as of 2025-01-02
+    </p>
+    <h2 class="head-second-info">Contact Us</h2>
+    <p class="text-info-bot">
+      If you have any questions or suggestions about the Terms and Conditions,
+      please do not hesitate to contact the Service Provider at mmhd@info.com.
+    </p>
+  </div>
+</div>
+
+
+        </section>
+      </div>
+    </main>
+    <footer>
+     <footer class="footer container">
+  <div class="footer-box">
+    <ul class="footer-list">
+      <li class="footer-item">
+        <a
+          href="./privacy-policy.html"
+          class="footer-link"
+          title="Privacy Policy read"
+          >Privacy Policy</a
+        >
+      </li>
+      <li class="footer-item">
+        <a
+          href="./terms-conditions.html"
+          class="footer-link"
+          title="Terms & Conditions read"
+          >Terms & Conditions</a
+        >
+      </li>
+    </ul>
+    <p class="footer-all-recerved">
+      ©2024 TopJameJourney.com, All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+    </footer>
   </body>
 </html>

@@ -1,4 +1,5 @@
 .advantages {
+  width: $mobile;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +13,7 @@
 
   &__list {
     margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,31 +31,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 287px;
-    height: auto;
+    width: 100%;
+    height: 273px;
+    padding-top: 73px;
     @include media(desktop) {
       width: 260px;
     }
     &:hover {
-      transform: translateY(-5px);
+      transform: scale(1.15);
       transition: transform 0.3s ease-in-out;
     }
   }
 
   &__content {
-    margin-top: 107px;
     display: flex;
     flex-direction: column;
+    padding: 91px 16px 33px 16px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 210px;
+    height: 200px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     // padding: 20px 16px;
     @include media(desktop) {
-      height: 200px;
+      padding: 94px 30px 30px 30px;
     }
   }
   &__name {
@@ -69,35 +72,60 @@
       padding-top: 107px;
     }
   }
-  &__image {
+  &__image_box {
     position: absolute;
-    top: 35px;
-    left: 25px;
+    top: 23px;
+    left: 28px;
+    width: 136px;
+    height: 136px;
+    z-index: 15;
+  }
+  &__image_chair {
+    position: absolute;
+    top: 0;
+    left: 28px;
     width: 150px;
+    height: 150px;
     z-index: 15;
   }
-  &__image_2 {
+  &__image_cat {
     position: absolute;
-    top: 30px;
-    left: 105px;
-    width: 140px;
+    top: 21px;
+    left: 38px;
+    width: 136px;
+    height: 158px;
     z-index: 15;
   }
-
+  &__image_man {
+    position: absolute;
+    top: -98px;
+    left: 55px;
+    width: 180px;
+    height: 235px;
+    z-index: 15;
+  }
+  &__image_sofa {
+    position: absolute;
+    top: -41px;
+    left: -18px;
+    width: 190px;
+    height: 190px;
+    z-index: 15;
+  }
   &__text {
-    width: 200px;
+    width: 100%;
     font-size: 16px;
     color: #333333;
     line-height: 1.15;
-    margin: 94px 30px 30px 30px;
+
     text-align: left;
   }
 
   .circle {
     position: absolute;
     background-color: $_main_bg_color;
-    top: 30px;
-    left: 60px;
+    top: 0;
+    left: 70px;
     width: 140px;
     height: 140px;
     border: 5px solid transparent;

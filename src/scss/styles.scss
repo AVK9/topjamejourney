@@ -11,10 +11,17 @@
 @import './info-privaci-terms-page.scss';
 
 :root {
+
   --font-family: 'Inter', sans-serif;
   --second-family: 'Dongle', sans-serif;
   --third-family: 'Poetsen One', sans-serif;
   --font3: 'Oxygen', sans-serif;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0%;
 
   --black: #000;
   --white: #fff;

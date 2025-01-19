@@ -1,6 +1,6 @@
-document.getElementById('logo').addEventListener('click', function () {
-  window.location.href = '#home_section';
-});
+// document.getElementById('logo').addEventListener('click', function () {
+//   window.location.href = '#home_section';
+// });
 
 const menuButton = document.querySelector('.js-open-menu');
 const closeButton = document.querySelector('.js-close-menu');

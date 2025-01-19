@@ -8,15 +8,9 @@
 @import './how-to-play.scss';
 @import './btn-google-play.scss';
 @import './title-block.scss';
+@import './info-privaci-terms-page.scss';
 
 :root {
-  color: black;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 
   --font-family: 'Inter', sans-serif;
   --second-family: 'Dongle', sans-serif;
@@ -48,6 +42,20 @@
   --color-azure-18: #20303c;
   --color-azure-51: #1a73e8;
   --color-azure-41: #3b5998;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0%;
+
+  color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 .container {

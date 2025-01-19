@@ -6,8 +6,8 @@
 
   @include font(42, 36);
   @include media(desktop) {
-    width: 260px;
-    @include font(42, 36);
+    width: 451px;
+    @include font(60, 56);
   }
 }
 #about_section {

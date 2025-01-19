@@ -65,7 +65,7 @@
     transform: rotate(2deg);
   }
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
     z-index: 5;
   }
@@ -83,7 +83,7 @@
     transform: rotate(3deg);
   }
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
   }
 }
@@ -99,7 +99,7 @@
     transform: rotate(-2deg);
   }
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
   }
 }

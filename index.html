@@ -13,10 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Merge Master</title>
     
+    <!-- <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/> -->
     <script type="module" crossorigin src="/topjamejourney/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/topjamejourney/assets/index-56d19343.css">
+    <link rel="stylesheet" href="/topjamejourney/assets/index-4b64cb5f.css">
   </head>
   <body>
+   
     <header class="header">
   <div class="container header-container">
     <div class="header-logo" id="logo">
@@ -126,6 +131,7 @@
 </header>
 
     <main>
+       <div class="wrapper">
       <section class="home">
   <div class="container home-container" id="home_section">
     <h2 class="visually-hidden">Home</h2>
@@ -282,12 +288,121 @@
   </div>
 </section>
 
-      <h2 id="gallery_section">Gallery</h2>
-<div class="swpiper">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore suscipit
-  distinctio, similique assumenda molestias a. Possimus amet fuga eligendi
-  provident eum velit aspernatur cupiditate temporibus, ipsam, error
-  exercitationem consectetur corrupti.
+      <div class="part-gallery container">
+  <h2 class="main-head-gallery" id="gallery_section">Gallery</h2>
+  <div class="slider-mobile-gallery">
+    <div class="swiper-m">
+  <div class="box-gallery swiper-wrapper">
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-1-a09e2269.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-2-b2492a2d.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-3-7bb8c20c.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-4-3ddb4812.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-5-6dbf0c78.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-6-a2b90919.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-7-c6455221.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-8-832673c3.png" class="img-gallery" alt="Design Lover" />
+    </div>
+    <div class="item-gallery swiper-slide">
+      <img src="/topjamejourney/assets/gallery-9-0cd144bb.png" class="img-gallery" alt="Design Lover" />
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+  </div>
+  <div class="slider-desktop-gallery">
+    <div class="swiper">
+  <div class="box-gallery swiper-wrapper">
+    <div class="swiper-slide slide-group">
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-1-a09e2269.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-2-b2492a2d.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-3-7bb8c20c.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+    </div>
+    <div class="swiper-slide slide-group">
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-4-3ddb4812.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-5-6dbf0c78.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-6-a2b90919.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+    </div>
+    <div class="swiper-slide slide-group">
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-7-c6455221.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-8-832673c3.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+      <div class="img-gallery-desktop">
+        <img
+          src="/topjamejourney/assets/gallery-9-0cd144bb.png"
+          class="img-gallery-desktop"
+          alt="Design Lover"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="swiper-button-prev">⬅</div>
+  <div class="swiper-button-next">➡</div>
+</div>
+
+  </div>
 </div>
 
       <div class="part-user-reviews container">
@@ -452,6 +567,7 @@
   </div>
 </div>
 
+      </div>
     </main>
     <footer>
     <footer class="footer container">
@@ -487,5 +603,6 @@
       </img>
     </button>
     
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

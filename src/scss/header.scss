@@ -68,18 +68,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  padding: 7px 5px;
-  margin-top: 6px;
+  width: 36px;
+  height: 36px;
+  // padding: 7px 5px;
+  // margin-top: 8px;
 
   @include media(desktop) {
     display: none;
   }
 }
 .menu-button-img {
-  width: 14px;
-  height: 10px;
+  width: 21px;
+  height: 15px;
 }
 .mob-container {
   width: 320px;
@@ -144,10 +144,10 @@
 
 .js-close-menu {
   position: absolute;
-  top: 14px;
+  top: 8px;
   right: 16px;
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   // margin: 7px;
 
   background: none;
@@ -155,8 +155,8 @@
   cursor: pointer;
 }
 .close-menu-button-img {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
 }
 .cat_mob_menu {
   width: 75px;

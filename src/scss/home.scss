@@ -1,5 +1,5 @@
 .home-container {
-  width: $mobile;
+  min-width: $mobile;
   display: flex;
   height: 568px;
   background-image: url(../img/home-page-mob.jpg);

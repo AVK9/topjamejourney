@@ -55,8 +55,8 @@
 .about_page_small_img_2 {
   position: absolute;
   top: 635px;
-  left: 30px;
-  width: 160px;
+  left: 23px;
+  width: 174px;
   transform: rotate(-8deg);
   @include media(desktop) {
     width: 320px;
@@ -72,13 +72,13 @@
 }
 .about_page_small_img_3 {
   position: absolute;
-  top: 720px;
+  top: 724px;
   left: 150px;
-  width: 135px;
-  transform: rotate(8deg);
+  width: 145px;
+  transform: rotate(7deg);
   @include media(desktop) {
     width: 280px;
-    top: 492px;
+    top: 494px;
     left: 840px;
     transform: rotate(3deg);
   }
@@ -89,9 +89,10 @@
 }
 .about_page_small_img_1 {
   position: absolute;
-  top: 790px;
+  top: 799px;
   left: 90px;
-  width: 110px;
+  width: 124px;
+  transform: rotate(-2deg);
   @include media(desktop) {
     width: 220px;
     top: 510px;

@@ -7,8 +7,8 @@
     height: 36px;
     z-index: 100;
     position: fixed;
-    right: 30px;
-    bottom: 155px;
+    left: calc(50% + 160px - 58px);
+    bottom: 160px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     animation: bounce 3s infinite;
     cursor: pointer;
@@ -16,7 +16,7 @@
     @include media(desktop) {
         width: 56px;
         height: 56px;
-        right: 175px;
+        left: calc(50% + 600px - 110px);
         bottom: 180px;
     }
 }

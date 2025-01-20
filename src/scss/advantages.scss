@@ -21,7 +21,8 @@
     list-style: none;
     padding: 0;
     @include media(desktop) {
-      gap: 75px;
+      column-gap: 75px;
+      row-gap: 60px;
     }
   }
 

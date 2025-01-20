@@ -60,9 +60,9 @@
   transform: rotate(-8deg);
   @include media(desktop) {
     width: 320px;
-    top: 400px;
+    top: 386px;
     left: 620px;
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   &:hover {
     transform: scale(1.2);
@@ -78,7 +78,7 @@
   transform: rotate(8deg);
   @include media(desktop) {
     width: 280px;
-    top: 510px;
+    top: 492px;
     left: 840px;
     transform: rotate(3deg);
   }

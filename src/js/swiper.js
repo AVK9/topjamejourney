@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper-m', {
 
 const swiperDesktop = new Swiper('.swiper', {
   loop: true,
-  slidesPerView: 1.02,
+  slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

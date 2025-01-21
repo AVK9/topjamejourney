@@ -1,6 +1,6 @@
 .about_title {
   padding-left: 0;
-  padding-top: 0;
+  padding-top: 3px;
   text-align: left;
   font-family: var(--second-family);
 
@@ -54,14 +54,14 @@
 }
 .about_page_small_img_2 {
   position: absolute;
-  top: 635px;
+  top: 629px;
   left: 23px;
   width: 174px;
-  transform: rotate(-8deg);
+  transform: rotate(-10deg);
   @include media(desktop) {
     width: 320px;
-    top: 386px;
-    left: 620px;
+    top: 386px; //386px;
+    left: 639px;
     transform: rotate(1deg);
   }
   &:hover {
@@ -72,15 +72,15 @@
 }
 .about_page_small_img_3 {
   position: absolute;
-  top: 724px;
-  left: 150px;
+  top: 717px;
+  left: 144px;
   width: 145px;
-  transform: rotate(7deg);
+  transform: rotate(5deg);
   @include media(desktop) {
     width: 280px;
     top: 494px;
-    left: 840px;
-    transform: rotate(3deg);
+    left: 873px;
+    transform: rotate(1deg);
   }
   &:hover {
     transform: scale(1.2);
@@ -89,15 +89,15 @@
 }
 .about_page_small_img_1 {
   position: absolute;
-  top: 799px;
-  left: 90px;
+  top: 797px;
+  left: 70px;
   width: 124px;
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
   @include media(desktop) {
-    width: 220px;
-    top: 510px;
-    left: 460px;
-    transform: rotate(-2deg);
+    width: 237px;
+    top: 498px;
+    left: 455px;
+    transform: rotate(1deg);
   }
   &:hover {
     transform: scale(1.2);

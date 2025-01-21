@@ -6,12 +6,10 @@
   align-items: center;
   justify-content: space-between;
 
-
   @include media(desktop) {
     width: 452px;
-    height: 202px;
+    height: 236px;
   }
-
 }
 
 .title-block-head {
@@ -20,11 +18,11 @@
   @include font(30, 30);
   text-align: center;
   color: var(--black);
-  margin-bottom: 3px;
+  // margin-bottom: 1px;
 
   @include media(desktop) {
     @include font(68, 68);
-    margin-bottom: 6px;
+    // margin-bottom: 2px;
   }
 }
 
@@ -41,7 +39,7 @@
 }
 
 .title-block-text {
-  margin-top: 16px;
+  margin-top: 10px;
   font-family: var(--second-family);
   font-weight: 400;
   @include font(24, 16.08);
@@ -50,11 +48,9 @@
   margin-top: 6px;
   margin-bottom: 14px;
 
-
   @include media(desktop) {
     @include font(28, 26);
     margin-top: 6px;
     margin-bottom: 20px;
   }
 }
-

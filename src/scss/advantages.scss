@@ -119,10 +119,16 @@
     font-size: 16px;
     color: #333333;
     line-height: 1.15;
-
     text-align: left;
   }
-
+  &__text_bold {
+    width: 100%;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.15;
+    text-align: left;
+    font-weight: 600;
+  }
   .circle {
     position: absolute;
     background-color: $_main_bg_color;

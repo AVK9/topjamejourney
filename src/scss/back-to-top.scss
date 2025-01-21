@@ -1,58 +1,57 @@
 .back-to-top {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    z-index: 100;
-    position: fixed;
-    left: calc(50% + 160px - 58px);
-    bottom: 160px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    animation: bounce 3s infinite;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  // position: relative;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  z-index: 100;
 
-    @include media(desktop) {
-        width: 56px;
-        height: 56px;
-        left: calc(50% + 600px - 110px);
-        bottom: 180px;
-    }
+  left: calc(50% + 160px - 58px);
+  bottom: 160px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: bounce 3s infinite;
+  cursor: pointer;
+
+  @include media(desktop) {
+    width: 56px;
+    height: 56px;
+    left: calc(50% + 600px - 110px);
+    bottom: 180px;
+  }
 }
 
-.back-to-top-img {
-
-
-    @include media(desktop) {
-        top: 20px;
-        left: 18px;
-    }
-}
-
-
+// .back-to-top-img {
+//   display: flex;
+// }
+//   @include media(desktop) {
+//     top: 20px;
+//     left: 20px;
+//   }
+// }
 
 .back-to-top:hover {
-    box-shadow: 0 0 0 5px rgba(116, 116, 116, 0.3);
+  box-shadow: 0 0 0 5px rgba(116, 116, 116, 0.3);
 }
 
 @keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
 
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0);
-    }
+  40% {
+    transform: translateY(-6px);
+  }
 
-    40% {
-        transform: translateY(-6px);
-    }
-
-    60% {
-        transform: translateY(-4px);
-    }
+  60% {
+    transform: translateY(-4px);
+  }
 }

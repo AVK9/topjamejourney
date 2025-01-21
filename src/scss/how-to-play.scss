@@ -1,149 +1,177 @@
 .part-how-to-play {
-    width: 100%;
+  width: 100%;
 }
 
 .main-head-how-to-play {
-    font-family: var(--second-family);
-    font-weight: 400;
-    @include font(42, 36.12);
-    color: var(--black);
+  font-family: var(--second-family);
+  font-weight: 400;
+  @include font(42, 36.12);
+  color: var(--black);
 
-    margin-top: 60px;
-    margin-left: 16px;
+  margin-top: 60px;
+  margin-left: 16px;
 
-    @include media(desktop) {
-        @include font(60, 56);
-        margin-top: 100px;
-        margin-left: 135px;
-    }
+  @include media(desktop) {
+    @include font(60, 56);
+    margin-top: 100px;
+    margin-left: 135px;
+  }
 }
 
 .box-how-to-play {
-    padding: 0 16px;
-    margin-top: 40px;
+  padding: 0 16px;
+  margin-top: 40px;
 
-    @include media(desktop) {
-        padding: 0 40px;
-    }
+  @include media(desktop) {
+    padding: 0 35px;
+  }
 }
 
 .list-how-to-play {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 
-    @include media(desktop) {
-        flex-direction: row;
-    }
+  @include media(desktop) {
+    flex-direction: row;
+    gap: 14px;
+  }
 }
 
 .item-rev-how-to-play,
 .item-how-to-play {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 288px;
+  flex-direction: column;
+  gap: 8px;
 
-    @include media(desktop) {
-        gap: 40px;
-    }
+  @include media(desktop) {
+    gap: 45px;
+    width: 272px;
+  }
 }
 
 .item-rev-how-to-play {
-    @include media(desktop) {
-        gap: 40px;
-        flex-direction: column-reverse
-    }
+  @include media(desktop) {
+    gap: 45px;
+    flex-direction: column-reverse;
+  }
 }
 
 .desc-box-how-to-play {
-    padding: 31px 16px;
+  padding: 31px 16px;
 
-    @include media(desktop) {
-        padding: 31px 16px;
-    }
+  @include media(desktop) {
+    padding: 36px 21px;
+  }
 }
 
 .desc-img-how-to-play {
-    width: 288px;
-    height: 216px;
-    // box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 288px;
+  height: 216px;
+
+  border: 5px solid transparent;
+  border-radius: 25px;
+  transition: border-color 0.3s ease;
+  // box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  @include media(desktop) {
+    box-sizing: content-box;
+    width: 262px;
+    height: 196px;
+
+    &.pic1:hover {
+      border-color: #ffe000;
+    }
+    &.pic2:hover {
+      border-color: #009dff;
+    }
+    &.pic3:hover {
+      border-color: #89e834;
+    }
+    &.pic4:hover {
+      border-color: #e85834;
+    }
+  }
 }
 
 .desc-head-how-to-play {
-    font-family: var(--font-family);
-    font-weight: 600;
-    @include font(18, 23.94);
-    color: var(--black);
+  font-family: var(--font-family);
+  font-weight: 600;
+  @include font(18, 23.94);
+  color: var(--black);
 }
 
 .desc-text-how-to-play {
-    font-family: var(--font-family);
-    font-weight: 400;
-    @include font(16, 16);
-    color: var(--black);
+  font-family: var(--font-family);
+  font-weight: 400;
+  @include font(16, 16);
+  color: var(--black);
 
-    margin-top: 16px;
+  margin-top: 16px;
+  @include media(desktop) {
+    @include font(16, 24);
+  }
 }
 
 .box-girl-cat {
-    margin-top: 44px;
-    width: 100%;
-    height: 469px;
-    display: flex;
-    justify-content: center;
-    position: relative;
+  margin-top: 44px;
+  width: 100%;
+  height: 469px;
+  display: flex;
+  justify-content: center;
+  position: relative;
 
-    background-image: url(./../img/bgr-how-to-play.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+  background-image: url(./../img/bgr-how-to-play.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 
-    @include media(desktop) {
-        display: block;
-        height: 582px;
-    }
+  @include media(desktop) {
+    display: block;
+    height: 582px;
+  }
 }
 
 .box-title {
-    padding-top: 66px;
+  padding-top: 66px;
 
-    @include media(desktop) {
-        padding: 180px 236px 200px 512px;
-    }
+  @include media(desktop) {
+    padding: 180px 236px 200px 512px;
+  }
 }
 
 .blok-title-cat {
-    width: 80px;
-    height: 37px;
-    background-image: url(./../img/blok-title-cat-m.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+  width: 80px;
+  height: 37px;
+  background-image: url(./../img/blok-title-cat-m.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 
-    position: absolute;
-    bottom: 0;
-    right: 74px;
+  position: absolute;
+  bottom: 0;
+  right: 74px;
 
-    @include media(desktop) {
-        left: 271px;
-    }
-
+  @include media(desktop) {
+    left: 271px;
+  }
 }
 
 .blok-title-girl {
-    width: 99px;
-    height: 198px;
-    background-image: url(./../img/blok-title-girl-m.png);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+  width: 99px;
+  height: 198px;
+  background-image: url(./../img/blok-title-girl-m.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 
-    position: absolute;
-    bottom: 0;
-    left: 64px;
+  position: absolute;
+  bottom: 0;
+  left: 64px;
 
-    @include media(desktop) {
-        left: 171px;
-    }
-
+  @include media(desktop) {
+    left: 171px;
+  }
 }

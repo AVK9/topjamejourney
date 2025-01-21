@@ -80,19 +80,18 @@
     box-sizing: content-box;
     width: 262px;
     height: 196px;
-
-    &.pic1:hover {
-      border-color: #ffe000;
-    }
-    &.pic2:hover {
-      border-color: #009dff;
-    }
-    &.pic3:hover {
-      border-color: #89e834;
-    }
-    &.pic4:hover {
-      border-color: #e85834;
-    }
+  }
+  &.pic1:hover {
+    border-color: #ffe000;
+  }
+  &.pic2:hover {
+    border-color: #009dff;
+  }
+  &.pic3:hover {
+    border-color: #89e834;
+  }
+  &.pic4:hover {
+    border-color: #e85834;
   }
 }
 

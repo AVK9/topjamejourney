@@ -69,10 +69,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.item-user-reviews:hover {
-  transform: scale(1.1);
-}
-
 .desc-box-user-reviews {
   height: 100%;
   position: relative;
@@ -87,6 +83,9 @@
 
   @include media(desktop) {
     left: 81px;
+  }
+  &:hover {
+    transform: scale(1.2);
   }
 }
 

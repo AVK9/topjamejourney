@@ -1,5 +1,4 @@
 .back-to-top {
-    position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 50%;
@@ -12,6 +11,9 @@
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     animation: bounce 3s infinite;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @include media(desktop) {
         width: 56px;
@@ -22,9 +24,7 @@
 }
 
 .back-to-top-img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+
 
     @include media(desktop) {
         top: 20px;

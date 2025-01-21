@@ -45,7 +45,8 @@
   border-radius: 20px;
   border: none;
   outline: none;
-  box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+
   @include media(desktop) {
     width: 548px;
     height: 520px;
@@ -103,4 +104,7 @@
     transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
   }
+}
+.about_container {
+  background-color: $_main_bg_color;
 }

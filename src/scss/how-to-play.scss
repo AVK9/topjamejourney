@@ -75,21 +75,26 @@
   border: 5px solid transparent;
   border-radius: 25px;
   transition: border-color 0.3s ease;
+
   // box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   @include media(desktop) {
     box-sizing: content-box;
     width: 262px;
     height: 196px;
   }
+
   &.pic1:hover {
     border-color: #ffe000;
   }
+
   &.pic2:hover {
     border-color: #009dff;
   }
+
   &.pic3:hover {
     border-color: #89e834;
   }
+
   &.pic4:hover {
     border-color: #e85834;
   }
@@ -109,6 +114,7 @@
   color: var(--black);
 
   margin-top: 16px;
+
   @include media(desktop) {
     @include font(16, 24);
   }
@@ -128,6 +134,7 @@
   background-repeat: no-repeat;
 
   @include media(desktop) {
+    background-position: right bottom;
     display: block;
     height: 582px;
   }
@@ -142,28 +149,30 @@
 }
 
 .blok-title-cat {
-  width: 80px;
-  height: 37px;
+  box-sizing: border-box;
+  width: 47px;
+  height: 33px;
   background-image: url(./../img/blok-title-cat-m.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-
   position: absolute;
-  bottom: 0;
-  right: 74px;
+  bottom: 0px;
+  right: 93px;
 
   @include media(desktop) {
-    left: 271px;
+    width: 98px;
+    height: 66px;
+    left: 393px;
   }
 }
 
 .blok-title-girl {
   width: 99px;
   height: 198px;
-  background-image: url(./../img/blok-title-girl-m.png);
+  background-image: url(./../img/blok-title-girl.png);
   background-size: cover;
-  background-position: center bottom;
+  background-position: right;
   background-repeat: no-repeat;
 
   position: absolute;
@@ -171,6 +180,9 @@
   left: 64px;
 
   @include media(desktop) {
+    background-position: right;
+    width: 166px;
+    height: 349px;
     left: 171px;
   }
 }

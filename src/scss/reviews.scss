@@ -66,6 +66,12 @@
         height: 320px;
         padding: 84px 20px 42px 20px;
     }
+
+    transition: all 0.3s ease-in-out;
+}
+
+.item-user-reviews:hover {
+    transform: scale(1.15);
 }
 
 .desc-box-user-reviews {

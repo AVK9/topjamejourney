@@ -128,13 +128,13 @@
   justify-content: center;
   position: relative;
 
-  background-image: url(./../img/bgr-how-to-play.png);
+  background-image: url(./../img/bgr-how-to-play_.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 
   @include media(desktop) {
-    background-position: right bottom;
+    background-image: url(./../img/bgr-how-to-play.png);
     display: block;
     height: 582px;
   }
@@ -183,6 +183,6 @@
     background-position: right;
     width: 166px;
     height: 349px;
-    left: 171px;
+    left: 178px;
   }
 }

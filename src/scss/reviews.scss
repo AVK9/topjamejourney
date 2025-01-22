@@ -30,12 +30,13 @@
   width: 288px;
   height: 1480px;
   position: relative;
-  margin-top: 40px;
+  margin-top: 25px;
 
   @include media(desktop) {
     padding: 72px 32px 32px 32px;
     width: 1120px;
     height: 424px;
+    margin-top: 35px;
   }
 }
 
@@ -58,12 +59,12 @@
   background: #fff;
 
   position: relative;
-  padding: 76px 12px 51px 12px;
+  padding: 63px 12px 51px 12px;
 
   @include media(desktop) {
     width: 240px;
     height: 320px;
-    padding: 84px 20px 42px 20px;
+    padding: 65px 20px 42px 20px;
   }
 
   transition: all 0.3s ease-in-out;
@@ -84,6 +85,7 @@
   @include media(desktop) {
     left: 81px;
   }
+
   &:hover {
     transform: scale(1.2);
   }
@@ -99,9 +101,9 @@
 .desc-text-user-reviews {
   font-family: var(--font-family);
   font-weight: 400;
-  @include font(16, 16);
+  @include font(16, 18);
 
-  margin-top: 16px;
+  margin-top: 25px;
 }
 
 .desc-reed-more-user-reviews {
@@ -119,10 +121,6 @@
   // cursor: pointer;
 }
 
-// .desc-reed-more-user-reviews:hover {
-//   color: red;
-// }
-
 .cat-guard-user-reviews {
   display: none;
 
@@ -134,6 +132,6 @@
     z-index: -1;
     position: absolute;
     top: -148px;
-    right: 150px;
+    right: 157px;
   }
 }

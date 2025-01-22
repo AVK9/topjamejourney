@@ -20,10 +20,11 @@
 
 .box-how-to-play {
   padding: 0 16px;
-  margin-top: 40px;
+  margin-top: 25px;
 
   @include media(desktop) {
     padding: 0 35px;
+    margin-top: 35px;
   }
 }
 
@@ -137,6 +138,7 @@
     background-image: url(./../img/bgr-how-to-play.png);
     display: block;
     height: 582px;
+    height: 540px;
   }
 }
 
@@ -144,7 +146,7 @@
   padding-top: 66px;
 
   @include media(desktop) {
-    padding: 136px 248px 214px 500px;
+    padding: 95px 248px 214px 500px;
   }
 }
 

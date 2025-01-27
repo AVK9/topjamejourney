@@ -19,7 +19,7 @@
     height: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 26px;
+    padding-top: 24px;
   }
 }
 
@@ -49,9 +49,12 @@
   height: 36px;
   cursor: pointer;
 
-  @include media(desktop) {
-    height: 40px;
-  }
+  // @include media(desktop) {
+  // height: 40px;
+  // }
+}
+.logo {
+  display: block;
 }
 .mob-menu-logo {
   display: block;

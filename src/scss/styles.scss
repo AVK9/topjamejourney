@@ -10,10 +10,8 @@
 @import './title-block.scss';
 @import './info-privaci-terms-page.scss';
 @import './back-to-top.scss';
-@import './popup.scss';
 
 :root {
-
   --font-family: 'Inter', sans-serif;
   --second-family: 'Dongle', sans-serif;
   --third-family: 'Poetsen One', sans-serif;
@@ -90,6 +88,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  // overflow: hidden;
   position: relative;
 }
 
